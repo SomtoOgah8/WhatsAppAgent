@@ -1,4 +1,4 @@
-# Olive reactivation agent
+# Olive Reactivation Agent
 
 A WhatsApp agent that helps inactive Olive MFB customers come back. It finds out why each customer went quiet, fixes what’s blocking them (login, KYC), and offers a reward for keeping a balance for 30 days. A mock Olive gateway with synthetic customers lets the whole thing run end to end without Meta or Olive access.
 
