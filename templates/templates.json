@@ -1,0 +1,50 @@
+{
+  "_note": "Message templates to submit for approval in WhatsApp Manager. {{n}} are filled by the service in the order shown in 'params'. Wording to be signed off by Compliance before submission.",
+  "templates": [
+    {
+      "name": "olive_reactivation_opening",
+      "category": "MARKETING",
+      "language": "en",
+      "body": "Hi {{1}}, it’s Olive MFB. Your account has been quiet for a while and there’s a reward waiting for you. Olive MFB will never ask for your PIN, OTP or card details.",
+      "params": ["first name"],
+      "buttons": [
+        { "type": "QUICK_REPLY", "text": "See my reward", "payload": "see_reward" },
+        { "type": "QUICK_REPLY", "text": "Stop messages", "payload": "stop" }
+      ],
+      "footer": "Automated message. Reply STOP to opt out."
+    },
+    {
+      "name": "olive_reward_deposit_received",
+      "category": "UTILITY",
+      "language": "en",
+      "body": "Hi {{1}}, we’ve received your deposit. Keep at least {{2}} in your Olive MFB account for {{3}} days in a row to earn your cashback.",
+      "params": ["first name", "minimum balance", "days"]
+    },
+    {
+      "name": "olive_reward_progress",
+      "category": "UTILITY",
+      "language": "en",
+      "body": "Halfway there, {{1}}. Keep at least {{2}} in your account for {{3}} more days and your cashback is yours.",
+      "params": ["first name", "minimum balance", "days left"]
+    },
+    {
+      "name": "olive_reward_paid",
+      "category": "UTILITY",
+      "language": "en",
+      "body": "Hi {{1}}, your {{2}} cashback has been paid into your Olive MFB account. Thanks for staying with us.",
+      "params": ["first name", "amount"]
+    },
+    {
+      "name": "olive_reward_reminder",
+      "category": "MARKETING",
+      "language": "en",
+      "body": "Hi {{1}}, a reminder from Olive MFB: your cashback offer is still open. Fund your account and keep the minimum balance to earn it. Olive MFB will never ask for your PIN or OTP.",
+      "params": ["first name"],
+      "buttons": [
+        { "type": "QUICK_REPLY", "text": "Fund my account", "payload": "fund" },
+        { "type": "QUICK_REPLY", "text": "Stop messages", "payload": "stop" }
+      ],
+      "footer": "Automated message. Reply STOP to opt out."
+    }
+  ]
+}

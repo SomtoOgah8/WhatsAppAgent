@@ -1,0 +1,12 @@
+[
+  { "ref": "C-1001", "phone": "+2348030000001", "first_name": "Ada",   "account_number": "1100004821", "consent_whatsapp": true,  "has_app": true,  "inactive_since": "2026-03-02", "kyc_required": false, "restricted": false, "balance": 120 },
+  { "ref": "C-1002", "phone": "+2348030000002", "first_name": "Musa",  "account_number": "1100007310", "consent_whatsapp": true,  "has_app": true,  "inactive_since": "2025-11-18", "kyc_required": true,  "restricted": true,  "balance": 0 },
+  { "ref": "C-1003", "phone": "+2348030000003", "first_name": "Chika", "account_number": "1100002265", "consent_whatsapp": true,  "has_app": false, "inactive_since": "2026-01-09", "kyc_required": false, "restricted": false, "balance": 450 },
+  { "ref": "C-1004", "phone": "+2348030000004", "first_name": "Tolu",  "account_number": "1100009042", "consent_whatsapp": true,  "has_app": null,  "inactive_since": "2026-05-21", "kyc_required": false, "restricted": false, "balance": 3000 },
+  { "ref": "C-1005", "phone": "+2348030000005", "first_name": "Bayo",  "account_number": "1100001178", "consent_whatsapp": false, "has_app": true,  "inactive_since": "2026-02-14", "kyc_required": false, "restricted": false, "balance": 0 },
+  { "ref": "C-1006", "phone": "+2348030000006", "first_name": "Ngozi", "account_number": "1100005533", "consent_whatsapp": true,  "has_app": true,  "inactive_since": "2026-04-30", "kyc_required": false, "restricted": false, "balance": 900 },
+  { "ref": "C-1007", "phone": "+2348030000007", "first_name": "Ibrahim","account_number": "1100006614", "consent_whatsapp": true,  "has_app": false, "inactive_since": "2025-12-05", "kyc_required": true,  "restricted": true,  "balance": 0 },
+  { "ref": "C-1008", "phone": "+2348030000008", "first_name": "Funke", "account_number": "1100003390", "consent_whatsapp": true,  "has_app": true,  "inactive_since": "2026-06-11", "kyc_required": false, "restricted": false, "balance": 2500 },
+  { "ref": "C-1009", "phone": "+2348030000009", "first_name": "Emeka", "account_number": "1100008807", "consent_whatsapp": true,  "has_app": true,  "inactive_since": "2026-03-27", "kyc_required": false, "restricted": false, "balance": 60 },
+  { "ref": "C-1010", "phone": "+2348030000010", "first_name": "Zainab","account_number": "1100004476", "consent_whatsapp": true,  "has_app": false, "inactive_since": "2026-01-30", "kyc_required": false, "restricted": false, "balance": 0 }
+]

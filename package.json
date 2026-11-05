@@ -1,0 +1,16 @@
+{
+  "name": "olive-reactivation-agent",
+  "version": "0.1.0",
+  "private": true,
+  "description": "WhatsApp AI agent that helps inactive Olive MFB customers return, with a mock Olive gateway for sandbox testing.",
+  "type": "module",
+  "engines": { "node": ">=22.5" },
+  "scripts": {
+    "start": "node --no-warnings src/server.js",
+    "gateway": "node --no-warnings mock-gateway/server.js",
+    "simulate": "node --no-warnings src/simulate.js",
+    "campaign": "node --no-warnings src/campaign.js",
+    "rewards": "node --no-warnings src/rewards.js",
+    "test": "node --no-warnings --test test/*.test.js"
+  }
+}
